@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Метатеги для новогодней темы -->
+    <meta name="description" content="Встретьте Новый год 2024 волшебно! Идеи для праздника, украшения, подарки, рецепты и создание праздничного настроения. Волшебство начинается здесь!">
+    <meta name="keywords" content="новый год 2024, новогодние украшения, праздничные рецепты, подарки на новый год, праздничное настроение, новогодние традиции">
+    
+    <title>Новогоднее Волшебство 2024 - Встречаем праздник вместе</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎄</text></svg>">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;600;700&family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <!-- Шапка с логотипом и кнопками под ним -->
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <i class="fas fa-tree logo-icon"></i>
+                <span>Новогоднее Волшебство</span>
+            </div>
+            
+            <!-- Контейнер с кнопками под логотипом -->
+            <div class="nav-buttons" id="navButtons">
+                <button class="nav-btn" onclick="scrollToSection('video')">Новогоднее видео</button>
+                <button class="nav-btn" onclick="scrollToSection('ideas')">Идеи для праздника</button>
+                <button class="nav-btn" onclick="scrollToSection('cta')">Подготовиться</button>
+            </div>
+            
+            <div class="hamburger" id="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Главная секция -->
+    <section class="hero" id="home">
+        <div class="container">
+            <h1>Встречаем Новый 2026 год с волшебством!</h1>
+            <p>Подготовьтесь к самому сказочному празднику года! У нас вы найдете все для создания незабываемой атмосферы: от украшений и рецептов до идей для подарков и праздничных традиций.</p>
+            <a href="#video" class="btn">Смотреть новогоднее видео</a>
+            <a href="#ideas" class="btn btn-secondary">Идеи для праздника</a>
+        </div>
+    </section>
+
+    <!-- Секция с видео -->
+    <section class="video-section" id="video">
+        <div class="container">
+            <div class="video-container">
+                <div class="video-wrapper">
+                    <!-- Новогоднее видео -->
+                    <iframe src="video.mp4" 
+                            title="Новогодняя атмосфера: музыка и красивые виды" 
+                            frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen>
+                    </iframe>
+                </div>
+                
+                <div class="video-info">
+                    <h2>Новогоднее настроение</h2>
+                    <p>Окунитесь в атмосферу праздника с нашим специальным новогодним видео! Красивые зимние пейзажи, уютные огоньки, праздничная музыка и идеи для создания волшебной атмосферы в вашем доме.</p>
+                    <p>Это видео поможет вам настроиться на праздничную волну и вдохновиться на создание собственного новогоднего чуда!</p>
+                    <a href="#ideas" class="btn btn-gold">Больше новогодних идей</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Секция новогодних идей -->
+    <section class="ideas" id="ideas">
+        <div class="container">
+            <h2>Новогодние идеи и вдохновение</h2>
+            
+            <div class="ideas-grid">
+                <div class="idea-card">
+                    <img src="https://images.unsplash.com/photo-1512389142860-9c449e58a543?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1169&q=80" 
+                         alt="Украшение елки" class="idea-img">
+                    <div class="idea-content">
+                        <h3>Украшение дома</h3>
+                        <p>Креативные идеи для украшения вашего дома к Новому году. Гирлянды, самодельные игрушки, зимние композиции и создание уютной атмосферы.</p>
+                        <a href="#" class="btn">Подробнее</a>
+                    </div>
+                </div>
+                
+                <div class="idea-card">
+                    <img src="https://images.unsplash.com/photo-1576866209830-589e1bfbaa4d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" 
+                         alt="Новогодний стол" class="idea-img">
+                    <div class="idea-content">
+                        <h3>Праздничные рецепты</h3>
+                        <p>Вкусные и красивые блюда для новогоднего стола. От традиционных салатов до современных десертов - рецепты на любой вкус.</p>
+                        <a href="#" class="btn">Подробнее</a>
+                    </div>
+                </div>
+                
+                <div class="idea-card">
+                    <img src="https://images.unsplash.com/photo-1549465220-1a8b9238cd48?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" 
+                         alt="Подарки" class="idea-img">
+                    <div class="idea-content">
+                        <h3>Идеи для подарков</h3>
+                        <p>Что подарить близким на Новый год? Подборка креативных и душевных подарков для всей семьи, которые точно понравятся.</p>
+                        <a href="#" class="btn">Подробнее</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   
+    <!-- Секция призыва к действию -->
+    <section class="cta-section" id="cta">
+        <div class="container">
+            <h2>Создайте свое новогоднее чудо!</h2>
+            <p>Подпишитесь на нашу рассылку и получите бесплатный PDF-гид "Полная подготовка к Новому году за 30 дней" с пошаговым планом, списками покупок и креативными идеями.</p>
+            <a href="#" class="btn">Получить бесплатный гид</a>
+        </div>
+    </section>
+
+    <!-- Футер -->
+    <footer id="contact">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <div class="footer-logo">
+                        <i class="fas fa-tree"></i>
+                        Новогоднее Волшебство
+                    </div>
+                    <p>Мы помогаем создавать незабываемые новогодние праздники с 2015 года. Наша миссия — делать каждый Новый год особенным и волшебным для вас и ваших близких.</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-vk"></i></a>
+                        <a href="#"><i class="fab fa-telegram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Разделы</h3>
+                    <ul class="footer-links">
+                        <li><a href="#video">Новогоднее видео</a></li>
+                        <li><a href="#ideas">Идеи для праздника</a></li>
+                        <li><a href="#countdown">Обратный отсчет</a></li>
+                        <li><a href="#cta">Подготовка к празднику</a></li>
+                        <li><a href="#">Новогодние традиции</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Полезное</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Чек-листы подготовки</a></li>
+                        <li><a href="#">Рецепты на Новый год</a></li>
+                        <li><a href="#">Идеи для подарков</a></li>
+                        <li><a href="#">Украшение дома</a></li>
+                        <li><a href="#">Новогодние игры</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Контакты</h3>
+                    <ul class="footer-links">
+                        <li><i class="fas fa-envelope"></i> hello@newyearmagic.by</li>
+                        <li><i class="fas fa-phone"></i> +375 (29) 123-45-67</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Минск, ул. Праздничная, 15</li>
+                        <li><i class="fas fa-clock"></i> Пн-Вс: 9:00-21:00</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; 2025 Новогоднее Волшебство. Все права защищены. Пусть ваш Новый год будет волшебным!</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Функция для плавной прокрутки к секциям
+        function scrollToSection(sectionId) {
+            const targetElement = document.getElementById(sectionId);
+            if (targetElement) {
+                window.scrollTo({
+                    top: targetElement.offsetTop - 100,
+                    behavior: 'smooth'
+                });
+                
+                // Закрытие мобильного меню после клика
+                if (window.innerWidth <= 768) {
+                    navButtons.classList.remove('active');
+                    hamburger.classList.remove('active');
+                }
+            }
+        }
+        
+        // Мобильное меню для кнопок
+        const hamburger = document.getElementById('hamburger');
+        const navButtons = document.getElementById('navButtons');
+        
+        hamburger.addEventListener('click', () => {
+            navButtons.classList.toggle('active');
+            hamburger.classList.toggle('active');
+        });
+        
+        // Новогодний обратный отсчет
+        function updateCountdown() {
+            const now = new Date();
+            const newYear = new Date(now.getFullYear() + 1, 0, 1); // 1 января следующего года
+            
+            const diff = newYear - now;
+            
+            const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+            const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((diff % (1000 * 60)) / 1000);
+            
+            document.getElementById('days').textContent = days.toString().padStart(2, '0');
+            document.getElementById('hours').textContent = hours.toString().padStart(2, '0');
+            document.getElementById('minutes').textContent = minutes.toString().padStart(2, '0');
+            document.getElementById('seconds').textContent = seconds.toString().padStart(2, '0');
+        }
+        
+        // Запуск обратного отсчета
+        updateCountdown();
+        setInterval(updateCountdown, 1000);
+        
+        // Создание снежинок
+        function createSnowflake() {
+            const snowflake = document.createElement('div');
+            snowflake.classList.add('snowflake');
+            snowflake.innerHTML = '❄';
+            snowflake.style.left = Math.random() * 100 + 'vw';
+            snowflake.style.animationDuration = Math.random() * 3 + 2 + 's';
+            snowflake.style.opacity = Math.random() * 0.5 + 0.5;
+            snowflake.style.fontSize = Math.random() * 10 + 10 + 'px';
+            
+            document.body.appendChild(snowflake);
+            
+            // Удаление снежинки после анимации
+            setTimeout(() => {
+                snowflake.remove();
+            }, 5000);
+        }
+        
+        // Создание нескольких снежинок
+        for (let i = 0; i < 50; i++) {
+            setTimeout(createSnowflake, i * 100);
+        }
+        
+        // Продолжаем создавать снежинки
+        setInterval(createSnowflake, 300);
+        
+        // Плавная прокрутка для якорных ссылок
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                
+                const targetId = this.getAttribute('href').substring(1);
+                if (!targetId) return;
+                
+                scrollToSection(targetId);
+            });
+        });
+        
+        // Для проверки на валидность
+        console.log("Новогодняя страница загружена успешно! С Новым годом! 🎄");
+    </script>
+</body>
+</html>
